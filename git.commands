@@ -1,0 +1,7 @@
+# Initialize git, add and commit the code
+git init
+git remote add origin https://github.com/Uma-929/devops-build.git
+git checkout -b dev
+git add .
+git commit -m "Initial commit with Docker configuration"
+git push -u origin dev
